@@ -56,10 +56,12 @@ export default class Board extends React.Component {
             if(x){
                 alert('X WINS')
                 return true
-            }else if(o){
+            }
+            else if(o){
                 alert('O WINS')
                 return true
-            }else if(chance === 9){
+            }
+            else if(chance === 9){
                 alert('DRAW')
                 return true
             }
